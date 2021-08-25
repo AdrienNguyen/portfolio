@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Adrien Nguyen's Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienNguyen/portfolio.git"
+  },
+  "author": "Adrien Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienNguyen/portfolio/issues"
+  },
+  "homepage": "https://github.com/AdrienNguyen/index.html",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
