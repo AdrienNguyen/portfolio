@@ -31,6 +31,14 @@
         }
     }
 
+    &--blue {
+        background-image: linear-gradient(to bottom right, $primary-color-light, $primary-color-dark);
+        color: $color-white;
+        &::after {
+            background-image: linear-gradient(to bottom right, $primary-color-light, $primary-color-dark);
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
@@ -72,4 +80,8 @@
         transform: translate(-.1rem);
         box-shadow: 0 .5rem 1rem rgba($color-black, .15);
     }
+}
+
+.btn-small {
+    padding: 1rem 2rem  !important;
 }
