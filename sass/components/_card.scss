@@ -99,7 +99,13 @@
         top: 14rem;
         right: 2rem; 
         color: $color-white;
-        width: 75%;
+        &--personal {
+            width: 75%;
+        }
+        &--professional {
+            width: 47%
+        }
+      
     }
 
     &__heading-span {
