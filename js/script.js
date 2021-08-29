@@ -7,3 +7,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+const navigationLinks = document.querySelectorAll(".navigation__link");
+const checkbox = document.querySelector(".navigation__checkbox");
+navigationLinks.forEach(x => {
+    x.addEventListener("click", () => {
+        checkbox.checked = false;
+    })
+})
