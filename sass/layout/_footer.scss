@@ -1,0 +1,42 @@
+.footer {
+    background-color: $color-grey-dark;
+    padding: 5rem 0;
+    font-size: 1.6rem;
+
+    &__logo-box {
+        padding-top: 8rem;
+    }
+
+    &__logo {
+        width: 20rem;
+        height: auto;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: block;
+        margin: 1.5rem 0;
+    }
+
+    &__link {
+        &:link, &:visited {
+            color: $color-white;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        &:hover, &:active {
+            color: $primary-color;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(5deg) scale(1.3);
+        }
+    }
+}

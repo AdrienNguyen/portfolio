@@ -396,6 +396,32 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.footer {
+  background-color: #333;
+  padding: 5rem 0;
+  font-size: 1.6rem; }
+  .footer__logo-box {
+    padding-top: 8rem; }
+  .footer__logo {
+    width: 20rem;
+    height: auto; }
+  .footer__navigation {
+    display: flex;
+    justify-content: center; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: block;
+    margin: 1.5rem 0; }
+  .footer__link:link, .footer__link:visited {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block; }
+  .footer__link:hover, .footer__link:active {
+    color: #0652DD;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3); }
+
 .row {
   max-width: calc(100% - 20rem);
   margin: 0 auto; }
