@@ -3,6 +3,10 @@
     padding: 5rem 0;
     font-size: 1.6rem;
 
+    @include respond(phone) {
+        padding: 0;
+    }
+
     &__logo-box {
         padding-top: 8rem;
     }
@@ -39,4 +43,23 @@
             transform: rotate(5deg) scale(1.3);
         }
     }
+
+    // &__content {
+    //     display: table;
+    //     width: 100vw;
+
+    // }
+
+    // &__left {
+    //     display: table-cell;
+    //     width: 50%;
+    //     vertical-align: middle;
+    //     text-align: center;
+    // }
+
+    // &__right {
+    //     display: table-cell;
+    //     width: 50%;
+    //     vertical-align: middle;
+    // }
 }

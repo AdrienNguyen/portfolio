@@ -13,7 +13,36 @@
         float: left;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+
+            &:nth-child(odd) {
+                @include respond(tab-land) {
+                    margin-right: $gutter-horizontal;
+                    margin-bottom: $gutter-vertical;
+                }
+            }
+            &:nth-child(even) {
+                @include respond(tab-land) {
+                    margin-right: 0;
+                    margin-bottom: $gutter-vertical;
+                }
+            }
+
+            @include respond(phone) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical;
+            }
         }
+
+        @include respond(tab-land) {
+            width: calc((100% - #{$gutter-horizontal}) / 2)!important;
+        }
+
+        @include respond(phone) {
+            width: 100%!important;
+        }
+
+   
+
     }
 
     .col-1-of-2 {

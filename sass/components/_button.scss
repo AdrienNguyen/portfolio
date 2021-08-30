@@ -39,6 +39,15 @@
         }
     }
 
+    &--orange {
+        background-image: linear-gradient(to bottom right, $fifth-color-light, $fifth-color-dark);
+        color: $color-white;
+        &::after {
+            background-image: linear-gradient(to bottom right, $fifth-color-light, $fifth-color-dark);
+        }
+    }
+
+
     &::after {
         content: "";
         display: inline-block;

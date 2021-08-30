@@ -20,6 +20,11 @@ body {
         animation-name: moveFromRight;
         animation-timing-function: ease-out;
         animation-duration: 1s;
+
+        @include respond(phone) {
+            font-size: 5rem;
+            letter-spacing: 1rem;
+        }
     }
 
     &--sub {
@@ -28,6 +33,10 @@ body {
         font-weight: 700;
         letter-spacing: 1rem;
         animation: moveFromLeft 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+        }
     }  
 }
 
@@ -39,6 +48,15 @@ body {
     background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
     -webkit-background-clip: text;
     color: transparent;
+
+    
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
 
     &:hover {
         transform: skewY(2deg) skewX(15deg) scale(1.1);
