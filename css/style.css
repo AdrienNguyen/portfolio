@@ -571,7 +571,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to bottom right, rgba(41, 152, 255, 0.5), rgba(86, 67, 250, 0.5)), url("/img/header-background.jpg");
+  background-image: linear-gradient(to bottom right, rgba(41, 152, 255, 0.5), rgba(86, 67, 250, 0.5)), url("../../img/header-background.jpg");
   background-position: top;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -705,7 +705,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.7), rgba(86, 67, 250, 0.7)), url(/img/bkhn-c1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.7), rgba(86, 67, 250, 0.7)), url("../../img/bkhn-c1.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
