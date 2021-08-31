@@ -7,8 +7,19 @@
         padding: 0;
     }
 
+    [class^="col-"] {
+        &:not(:last-child) {
+            @include respond(phone) {
+                margin-bottom: 0!important;
+            }      
+        }
+    }
+
     &__logo-box {
         padding-top: 8rem;
+        @include respond(phone) {
+            padding-top: 3rem;
+        }
     }
 
     &__logo {
@@ -19,6 +30,9 @@
     &__navigation {
         display: flex;
         justify-content: center;
+        @include respond(phone) {
+            padding-bottom: 3rem;
+        }
     }
 
     &__list {

@@ -4,10 +4,21 @@
 
 .u-margin-bottom-big {
     margin-bottom: 8rem!important;
+
+    @include respond(phone) {
+        margin-bottom: 6rem!important;
+    }
 }
 
 .u-margin-bottom-small {
     margin-bottom: 1.5rem;
+    @include respond(phone) {
+        margin-bottom: 1rem!important;
+    }
+}
+
+.u-margin-bottom-medium {
+    margin-bottom: 3rem!important;
 }
 
 .icon-red {

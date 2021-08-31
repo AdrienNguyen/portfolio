@@ -9,12 +9,21 @@
     border-radius: 3px;
     transform: skewX(-12deg);
 
+    @include respond(phone) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+        transform: skewX(0);
+    }
+
     &__shape {
         width: 15rem;
         height: 15rem;
         float: left;
-        // -webkit-shape-outside: circle(50% at 50% 50%);
-        // shape-outside: circle(50% at 50% 50%);
+        @include respond(phone) {
+            transform: translateX(0rem) skewX(0);
+            float: none;
+        }
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-2rem) skewX(12deg);
@@ -38,6 +47,9 @@
 
     &__text {
         transform: skewX(12deg);
+        @include respond(phone) {
+            transform: skewX(0);
+        }
     }
 
     &__caption {

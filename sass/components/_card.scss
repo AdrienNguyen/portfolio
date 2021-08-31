@@ -166,4 +166,71 @@
         color: $color-white; 
         margin-bottom: 3rem;
     }
+
+    @include respond(phone) {
+        border-radius: 3px;
+        height: auto;
+        background-color: $color-white;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        &__side {
+            height: auto;
+            position: relative;
+            box-shadow: none;
+            &--back {
+                transform: rotateY(0deg);
+                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+            }
+        }
+
+        &:hover &__side--front {
+            transform: rotateY(0deg);
+        }
+
+        &__cta {
+            position: relative;
+            top: 0%;
+            left: 0%;
+            transform: translate(0);
+            text-align: center;
+            width: 100%;
+            padding: 7rem 4rem 4rem 4rem;
+        }
+
+        &__technology-box {
+            & > ul {
+                list-style-type: none;
+                margin: 0 auto;
+                line-height: 1;
+
+                & > li {
+                    text-align: center;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    padding: 1rem;
+                }
+            }  
+            color: $color-white; 
+            margin-bottom: 3rem;
+        }
+
+        &__heading {
+            font-size: 2.0rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: right;
+            position: absolute;
+            top: 10rem;
+            right: 2rem; 
+            color: $color-white;
+            &--personal {
+                width: 75%;
+            }
+            &--professional {
+                width: 80%
+            }
+          
+        }
+
+    }
 }
