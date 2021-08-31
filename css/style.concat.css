@@ -818,7 +818,7 @@ body {
       background-color: #FFF;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
       .card__side {
-        height: 35rem;
+        height: auto;
         position: relative;
         box-shadow: none; }
         .card__side--back {
@@ -1080,6 +1080,9 @@ body {
 .row {
   max-width: calc(100% - 20rem);
   margin: 0 auto; }
+  @media only screen and (max-width: 37.5em) {
+    .row {
+      max-width: calc(100% - 10rem); } }
   .row:not(:last-child) {
     margin-bottom: 3rem; }
   .row::after {

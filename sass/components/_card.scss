@@ -176,7 +176,7 @@
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
         &__side {
-            height: 35rem;
+            height: auto;
             position: relative;
             box-shadow: none;
             &--back {

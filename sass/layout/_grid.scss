@@ -2,6 +2,11 @@
 
 .row {
     max-width: $grid-width;
+    @include respond(phone) {
+        $grid-width: calc(100% - 10rem);
+        max-width: $grid-width;
+    }
+
     margin: 0 auto;
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
