@@ -36,7 +36,7 @@
 
     &__left {
         display: table-cell;
-        width: 100%;
+        width: 80%;
         height: 90vh;
         @include respond(phone) {
             height: 60vh;
@@ -59,7 +59,7 @@
     }
 
     &__right {
-        width: 100%;
+        width: 20%;
         display: table-cell;
         vertical-align: middle;
 
