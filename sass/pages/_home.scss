@@ -1,43 +1,41 @@
 .section-about {
-    background-color: $color-grey-light-1;
-    margin-top: -20vh;
-    padding: 16rem 0;
-
+  background-color: $color-grey-light-1;
+  margin-top: -20vh;
+  padding: 16rem 0;
 }
 
 .section-features {
-    padding: 20rem 0;
-    background-image: linear-gradient(
-        to right bottom,
-        rgba($primary-color-light, 0.7),
-        rgba($primary-color-dark, 0.7)),
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary-color-light, 0.7),
+      rgba($primary-color-dark, 0.7)
+    ),
     url("../img/bkhn-c1.jpg");
-    background-size: cover;
-    transform: skewY(-7deg);
-    margin-top: -10rem;
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
 
-    @include respond(phone) {
-        padding: 8rem 0;
-    }
+  @include respond(phone) {
+    padding: 8rem 0;
+  }
 
-
-    & > * {
-        transform: skewY(7deg);
-    }
+  & > * {
+    transform: skewY(7deg);
+  }
 }
 
 .section-projects {
-    background-color: $color-grey-light-1;
-    margin-top: -22vh;
-    padding: 20rem 0 10rem 0;
+  background-color: $color-grey-light-1;
+  margin-top: -18vh;
+  padding: 20rem 0 10rem 0;
 
-    @include respond(phone) {
-        margin-top: -18vh;
-    }
-
+  @include respond(phone) {
+    margin-top: -18vh;
+  }
 }
 
 .section-quotes {
-    position: relative;
-    padding: 10rem 0;
+  position: relative;
+  padding: 10rem 0;
 }
