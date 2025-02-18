@@ -328,17 +328,17 @@ body {
     .card__picture--6 {
       background-image: linear-gradient(to bottom right, #ff6b6b, #4b6584), url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); }
     .card__picture--7 {
-      background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url("../../img/ceartas-dmca.jpg"); }
+      background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url("../img/ceartas-dmca.jpg"); }
     .card__picture--8 {
-      background-image: linear-gradient(to bottom right, #778ca3, #4b6584), url("../../img/nft-market.jpeg"); }
+      background-image: linear-gradient(to bottom right, #778ca3, #4b6584), url("../img/nft-market.jpeg"); }
     .card__picture--9 {
-      background-image: linear-gradient(to bottom right, #2998ff, #5643FA), url("../../img/alpha-quark.png"); }
+      background-image: linear-gradient(to bottom right, #2998ff, #5643FA), url("../img/alpha-quark.png"); }
     .card__picture--10 {
-      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url("../../img/axim-chain.jpeg"); }
+      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url("../img/axim-chain.jpeg"); }
     .card__picture--11 {
-      background-image: linear-gradient(to bottom right, #a55eea, #8854d0), url("../../img/xswap.avif"); }
+      background-image: linear-gradient(to bottom right, #a55eea, #8854d0), url("../img/xswap.avif"); }
     .card__picture--12 {
-      background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253), url("../../img/lottery.jpeg"); }
+      background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253), url("../img/lottery.jpeg"); }
   .card__heading {
     font-size: 2.0rem;
     font-weight: 300;
