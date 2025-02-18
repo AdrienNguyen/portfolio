@@ -290,6 +290,18 @@ body {
         background-image: linear-gradient(to bottom right, #a55eea, #8854d0); }
       .card__side--back-6 {
         background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253); }
+      .card__side--back-7 {
+        background-image: linear-gradient(to bottom right, #7ed56f, #28b485); }
+      .card__side--back-8 {
+        background-image: linear-gradient(to bottom right, #778ca3, #4b6584); }
+      .card__side--back-9 {
+        background-image: linear-gradient(to bottom right, #2998ff, #5643FA); }
+      .card__side--back-10 {
+        background-image: linear-gradient(to bottom right, #ffb900, #ff7730); }
+      .card__side--back-11 {
+        background-image: linear-gradient(to bottom right, #a55eea, #8854d0); }
+      .card__side--back-12 {
+        background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -314,7 +326,19 @@ body {
     .card__picture--5 {
       background-image: linear-gradient(to bottom right, #a55eea, #8854d0), url("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); }
     .card__picture--6 {
-      background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253), url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); }
+      background-image: linear-gradient(to bottom right, #ff6b6b, #4b6584), url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); }
+    .card__picture--7 {
+      background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url("../../img/ceartas-dmca.jpg"); }
+    .card__picture--8 {
+      background-image: linear-gradient(to bottom right, #778ca3, #4b6584), url("../../img/nft-market.jpeg"); }
+    .card__picture--9 {
+      background-image: linear-gradient(to bottom right, #2998ff, #5643FA), url("../../img/alpha-quark.png"); }
+    .card__picture--10 {
+      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url("../../img/axim-chain.jpeg"); }
+    .card__picture--11 {
+      background-image: linear-gradient(to bottom right, #a55eea, #8854d0), url("../../img/xswap.avif"); }
+    .card__picture--12 {
+      background-image: linear-gradient(to bottom right, #ff6b6b, #ee5253), url("../../img/lottery.jpeg"); }
   .card__heading {
     font-size: 2.0rem;
     font-weight: 300;
@@ -343,6 +367,18 @@ body {
     .card__heading-span--5 {
       background-image: linear-gradient(to bottom right, rgba(165, 94, 234, 0.85), rgba(136, 84, 208, 0.85)); }
     .card__heading-span--6 {
+      background-image: linear-gradient(to bottom right, rgba(255, 107, 107, 0.85), rgba(238, 82, 83, 0.85)); }
+    .card__heading-span--7 {
+      background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+    .card__heading-span--8 {
+      background-image: linear-gradient(to bottom right, rgba(119, 140, 163, 0.85), rgba(75, 101, 132, 0.85)); }
+    .card__heading-span--9 {
+      background-image: linear-gradient(to bottom right, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+    .card__heading-span--10 {
+      background-image: linear-gradient(to bottom right, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__heading-span--11 {
+      background-image: linear-gradient(to bottom right, rgba(165, 94, 234, 0.85), rgba(136, 84, 208, 0.85)); }
+    .card__heading-span--12 {
       background-image: linear-gradient(to bottom right, rgba(255, 107, 107, 0.85), rgba(238, 82, 83, 0.85)); }
   .card__details {
     font-size: 1.5rem;
